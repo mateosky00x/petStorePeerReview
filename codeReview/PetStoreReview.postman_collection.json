@@ -1,0 +1,849 @@
+{
+	"info": {
+		"_postman_id": "f5e0b539-0197-4ff4-9df0-3f0dbaa23be3",
+		"name": "PetStoreReview",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22116142"
+	},
+	"item": [
+		{
+			"name": "cp_add01",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 15,\r\n    \"category\": {\r\n        \"id\": 0,\r\n        \"name\": \"Perro\"\r\n    },\r\n    \"name\": \"Bianco\",\r\n    \"photoUrls\": [\r\n        \"string\"\r\n    ],\r\n    \"tags\": [\r\n        {\r\n            \"id\": 0,\r\n            \"name\": \"string\"\r\n        }\r\n    ],\r\n    \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add02",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 12,\r\n      \"name\": \"Perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add03",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": ,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add04",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add05",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add06",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add07",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": erd,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add08",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": 2019\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \" \"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add09",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": 2020,\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"unintelligible\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": 2021\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add12",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"%&\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add13",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": ,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add14",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"%&\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add15",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"string\"\r\n    }\r\n  ],\r\n  \"status\": \"%&\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add16",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    2\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 21,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add17",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"www.photo1.com\", \"www.photo1.com\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 21,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add18",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 21,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add19",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 21,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_add20",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 21,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_updatePet01",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 21,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_updatePet02",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianquito\",\r\n  \"photoUrls\": [\r\n    \"www.photoperrito.com\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 13,\r\n      \"name\": \"Perrito blanco 2\"\r\n    }\r\n  ],\r\n  \"status\": \"pending\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_updatePet03",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"www.photoperrito.com\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 999,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_updatePet04",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"www.photoperrito.com\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 12,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"anything\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_updatePet05",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 15,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"www.photoperrito.com\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 12,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"anything\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_updatePet06",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 9999999998888877775,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"Perro\"\r\n  },\r\n  \"name\": \"Bianco\",\r\n  \"photoUrls\": [\r\n    \"www.photoperrito.com\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 12,\r\n      \"name\": \"perrito blanco\"\r\n    }\r\n  ],\r\n  \"status\": \"anything\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_findpetByID01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet/15",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_findpetByID02",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet/161654871212",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet",
+						"161654871212"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_findpetByID03",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet/failure",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet",
+						"failure"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_findpetByID04",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/pet/%%&&",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet",
+						"%%&&"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_deletepet01",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet/failure",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet",
+						"failure"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cp_deletepet02",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/pet/failure/1978786787",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"pet",
+						"failure",
+						"1978786787"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
